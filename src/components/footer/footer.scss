@@ -1,0 +1,62 @@
+@import '../../shared/index.scss';
+@import '../../shared/media-queries';
+
+.footer {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    background-color:$font-footer;
+
+    &__line {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        width: 1000px;
+        height: 1px;
+        margin-bottom: 20px;
+        background-color: $font-footer;
+        opacity: .2;
+
+        &--github {
+            font-size: 35px;
+            color: $font-white;
+            opacity: .7;
+
+            &:hover {
+                color: $font-github;
+                cursor: pointer;
+                transition: all 3s ease-in;
+            }
+        }
+    }
+
+    a {
+        color:$font-white;
+        text-decoration: none;
+
+        &:hover {
+            border-bottom: 1px dotted $font-white;
+            transition: all 2s ease-in-out;
+        }
+    }
+
+    span {
+        width: 500px;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+        color: $font-white;
+    }
+
+    p {
+        color: $font-white;
+        opacity: .7;
+    }
+}

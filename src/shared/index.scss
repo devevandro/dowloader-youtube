@@ -1,0 +1,7 @@
+@import './colors';
+@import './fonts';
+
+body {
+    font-family: $font-body;
+    color: $font-color;
+}

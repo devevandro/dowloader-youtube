@@ -1,0 +1,33 @@
+@import './shared/index.scss';
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 1440px;
+
+    &__logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        img {
+            width: 100px;
+            margin-right: 50px;
+        }
+
+        h1 {
+            font-size: 75px;
+            font-family: $font-logo;
+            color: $font-name;
+        }
+    }
+
+    &__footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
