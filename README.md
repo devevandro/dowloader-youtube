@@ -6,5 +6,5 @@ API:  [Repositoris](https://github.com/devevandro/dowloader-youtube-api).
 
 This project was builded:
 
-### `React JS`
-### `SASS`
+ * React JS
+ * SASS
