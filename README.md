@@ -1,6 +1,6 @@
 # Downloader from Youtube
 
-API:  [Repositoris](https://github.com/devevandro/dowloader-youtube-api).
+API:  [Repository](https://github.com/devevandro/dowloader-youtube-api).
 
 ## Descriptions
 
