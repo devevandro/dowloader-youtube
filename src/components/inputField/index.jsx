@@ -16,6 +16,11 @@ const InputField = () => {
     }
 
     const handleSubmit = async () => {
+        const aux = values.url.slice(0 , 33);
+        /* if(aux !== 'https://www.youtube.com/watch?v=') {
+            alert('teste');
+        } */
+        
         const res = await api.post('download', values);
     }
 
@@ -25,7 +30,7 @@ const InputField = () => {
 
             <form onChange={handleOnChange}>
                 <div className="content__input">
-                    <input onError autoComplete="off" type="text" name="url" placeholder="Cole o link do vídeo aqui" />
+                    <input autoComplete="off" type="text" name="url" placeholder="Cole o link do vídeo aqui" />
                     <div onClick={handleSubmit} className="content__input--btn">Converter</div>
                 </div>
             </form>
